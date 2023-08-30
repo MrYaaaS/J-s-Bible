@@ -13,6 +13,9 @@
 		FBD661952A980673008B556D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD661932A980673008B556D /* Main.storyboard */; };
 		FBD661972A980674008B556D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD661962A980674008B556D /* Assets.xcassets */; };
 		FBD6619A2A980674008B556D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD661982A980674008B556D /* LaunchScreen.storyboard */; };
+		FBD661A82A981F08008B556D /* before2022View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD661A72A981F08008B556D /* before2022View.swift */; };
+		FBD661AA2A99661F008B556D /* year2022View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD661A92A99661F008B556D /* year2022View.swift */; };
+		FBD661AC2A996870008B556D /* year2023View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD661AB2A996870008B556D /* year2023View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FBD661962A980674008B556D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD661992A980674008B556D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD6619B2A980674008B556D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD661A72A981F08008B556D /* before2022View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = before2022View.swift; sourceTree = "<group>"; };
+		FBD661A92A99661F008B556D /* year2022View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = year2022View.swift; sourceTree = "<group>"; };
+		FBD661AB2A996870008B556D /* year2023View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = year2023View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				FBD6618D2A980673008B556D /* AppDelegate.swift */,
 				FBD6618F2A980673008B556D /* SceneDelegate.swift */,
 				FBD661912A980673008B556D /* ViewController.swift */,
+				FBD661AB2A996870008B556D /* year2023View.swift */,
+				FBD661A92A99661F008B556D /* year2022View.swift */,
 				FBD661932A980673008B556D /* Main.storyboard */,
 				FBD661962A980674008B556D /* Assets.xcassets */,
 				FBD661982A980674008B556D /* LaunchScreen.storyboard */,
 				FBD6619B2A980674008B556D /* Info.plist */,
+				FBD661A72A981F08008B556D /* before2022View.swift */,
 			);
 			path = "J's Bible";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD661922A980673008B556D /* ViewController.swift in Sources */,
+				FBD661AA2A99661F008B556D /* year2022View.swift in Sources */,
+				FBD661AC2A996870008B556D /* year2023View.swift in Sources */,
 				FBD6618E2A980673008B556D /* AppDelegate.swift in Sources */,
 				FBD661902A980673008B556D /* SceneDelegate.swift in Sources */,
+				FBD661A82A981F08008B556D /* before2022View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPU99765Z5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "J's Bible/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPU99765Z5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "J's Bible/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
